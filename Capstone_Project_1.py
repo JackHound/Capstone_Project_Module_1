@@ -1153,8 +1153,8 @@ def input_email():
 
 def input_password():
     while True:
-        password = input("Masukkan password anda")
-        repassword = input("Masukkan kembali password anda")
+        password = input("Masukkan password anda:")
+        repassword = input("Masukkan kembali password anda:")
         if password != repassword:
             print("Masukkan password yang sama")
         elif password == "":
