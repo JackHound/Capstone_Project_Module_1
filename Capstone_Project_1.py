@@ -1185,7 +1185,7 @@ def reg_member():
     password_m = input_password()
 
     new_id = id_gen("M", member_db, recycle_bin)
-    member_db[new_id] = {"nama":name_m,"phone":phone_m,"email":email_m,"password":password_m}
+    member_db[new_id] = {"name":name_m,"phone":phone_m,"email":email_m,"password":password_m}
 
     print(f'''
         Data anda berhasil di registrasi dengan detail sebagai berikut:
@@ -1220,7 +1220,7 @@ def reg_admin():
     password_a = input_password()
 
     new_id = id_gen("A", adm_db, recycle_bin)
-    adm_db[new_id] = {"nama":name_a,"phone":phone_a,"email":email_a,"password":password_a}
+    adm_db[new_id] = {"name":name_a,"phone":phone_a,"email":email_a,"password":password_a}
 
     print(f'''
         Data anda berhasil di registrasi dengan detail sebagai berikut:
