@@ -1355,6 +1355,7 @@ def member_func(u_name_m):
             continue
 
         elif m1=="3":
+            book_list(books_db)
             print("Cek status buku yang ingin anda pinjam")
             while True:
                 kode_buku = input("Kode buku:").strip()
